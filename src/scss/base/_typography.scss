@@ -1,0 +1,8 @@
+@use '../abstracts/mixins' as mixins;
+
+@include mixins.font-face('Arial', 'Arial-Bold', $weight: 400);
+@include mixins.font-face('Open Sans', 'OpenSans-Regular', $weight: 400);
+@include mixins.font-face('Open Sans', 'OpenSans-SemiBold', $weight: 400);
+@include mixins.font-face('DelaGothicOne', 'DelaGothicOne-Regular', $weight: 400);
+@include mixins.font-face('Inter', 'Inter-Bold', $weight: 400);
+@include mixins.font-face('Inter', 'Inter-Regular', $weight: 400);
