@@ -63,7 +63,7 @@ export const Hero = () => {
 						</p>
 					</div>
 
-					<div className={styles.imageBlock}>
+					<div className={styles.imageBlock}>.
 						<img src={BG} alt='CRM внедрение' className={styles.image} />
 					</div>
 				</div>
