@@ -1,0 +1,21 @@
+.wrapper {
+	display: grid;
+	place-items: center;
+	text-align: center;
+	margin-inline: auto;
+	gap: 2rem;
+	max-width: 53.125rem;
+	margin-bottom: 2rem;
+}
+
+.title {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+.description {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 1.875rem;
+}

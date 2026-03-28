@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import styles from './style.module.scss';
 
+import classNames from 'classnames';
+
 import BG from '../../../../public/images/hero-bg.png';
 
 export const Hero = () => {
@@ -24,7 +26,7 @@ export const Hero = () => {
 	};
 
 	return (
-		<section className={styles.hero}>
+		<section className={classNames(styles.hero, 'container')}>
 			<div className={styles.container}>
 				<div className={styles.content}>
 					<div className={styles.textBlock}>
@@ -63,7 +65,8 @@ export const Hero = () => {
 						</p>
 					</div>
 
-					<div className={styles.imageBlock}>.
+					<div className={styles.imageBlock}>
+						.
 						<img src={BG} alt='CRM внедрение' className={styles.image} />
 					</div>
 				</div>
