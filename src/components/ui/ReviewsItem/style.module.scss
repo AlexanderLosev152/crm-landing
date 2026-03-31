@@ -1,0 +1,22 @@
+.reviewsitem {
+	border: 1px solid #bdbdbd;
+	border-radius: 20px;
+	padding: 2rem 1rem;
+}
+
+.wrapper {
+	font-family: var(--font-family);
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin-bottom: 26px;
+
+	div {
+		display: grid;
+		p {
+			font-family: var(--font-family);
+			font-weight: 700;
+		}
+	}
+}

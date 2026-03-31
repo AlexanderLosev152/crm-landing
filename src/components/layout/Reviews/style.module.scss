@@ -1,0 +1,5 @@
+@use '../../../scss/abstracts/mixins' as *;
+
+.reviewslist {
+	@include grid(20rem, 1rem);
+}
